@@ -1,0 +1,16 @@
+# Simulation parameters
+num_replicates: 100
+sequence_length: 1000000
+mutation_rate: 1e-8
+recombination_rate: 1e-8
+
+# IMa3 settings
+ima3_mcmc_steps: 500000
+
+# Model selection
+num_bootstraps: 100
+admixture_k_values: [2, 3, 4]
+
+# Statistical significance level
+alpha: 0.05
+
